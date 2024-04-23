@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@t3-stack/libs": ["libs/src/index.ts"],
-      "@t3-stack/libs/server": ["libs/src/server.ts"]
+      "@t3-stack/libs/server": ["libs/src/server.ts"],
+      "@t3-stack/zustand": ["libs/src/lib/src/index.ts"],
+      "@t3-stack/zustand/server": ["libs/src/lib/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
