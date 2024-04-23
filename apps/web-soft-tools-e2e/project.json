@@ -1,0 +1,9 @@
+{
+  "name": "web-soft-tools-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/web-soft-tools-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["web-soft-tools"],
+  "// targets": "to see all targets run: nx show project web-soft-tools-e2e --web",
+  "targets": {}
+}
