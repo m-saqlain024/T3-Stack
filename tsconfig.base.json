@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@t3-stack/libs": ["libs/src/index.ts"],
+      "@t3-stack/libs/server": ["libs/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
